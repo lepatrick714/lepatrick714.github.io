@@ -1,6 +1,5 @@
-
 body {
-  max-width: 460px;
+  max-width: 700px;
   color: #424242;
   line-height: 1.6;
   padding-top: 20px;
@@ -8,7 +7,7 @@ body {
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 11pt;
   margin: auto;
-  width: 50%;
+  width: 83%;
   padding: 10px;
 }
 
@@ -17,12 +16,23 @@ h1, h2, h3, h4, h5 {
   color: #000000;
 }
 
-a {
-  padding-right: 8px;
+header h3{
+  font-size: 3em;
+}
+
+a  {
   text-decoration: none;
   -webkit-transition: all 200ms cubic-bezier(0.47, 0, 0.745, 0.715);
   transition: all 200ms cubic-bezier(0.47, 0, 0.745, 0.715);
   font-weight: 500;
+}
+
+.funFact {
+  color: #0354bc;
+}
+
+a.footer {
+  padding-right: 8px;
 }
 
 p {
@@ -30,7 +40,7 @@ p {
 }
 
 a:link, a:visited {
-  color: #000000;
+  color: #0354bc;
 }
 
 a:hover, a:active {
