@@ -1,0 +1,6 @@
+export * from './Contact'
+export * from './CVContent'
+export * from './HomePage'
+export * from './Navbar'
+export * from './ParticlesBackground'
+export * from './SocialMediaIcons'

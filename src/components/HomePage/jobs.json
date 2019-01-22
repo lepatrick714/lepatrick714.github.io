@@ -1,0 +1,95 @@
+{
+  "currentPos": {
+    "title": "Software Engineer",
+    "company": "Microsoft",
+    "link": "https://products.office.com/en-us/home",
+    "date": "(Expected July 2019)",
+    "contents": ["Office Experience Team (OXO)"]
+  },
+  "pastPos": [
+    {
+      "title": "Software Development Engineer Intern",
+      "company": "Amazon Alexa",
+      "link": "https://www.amazon.com/",
+      "date": "(Fall 2018)",
+      "contents": [
+        "Worked on the Alexa Smart Home Mobile GUI using React Native, and Native Android & iOS",
+        "Implemented Smart Home devices group's & category's entities controls such as power, brightness, color, locks, & temperature",
+        "Feature is expected to bring customer's coverage from 75% to 99% by adding new capabilities to over 1.4 million costumers."
+      ]
+    },
+    {
+      "title": "Software Engineer Intern",
+      "company": "Informatica",
+      "link": "https://www.informatica.com/",
+      "date": "(Summer 2018)",
+      "contents": [
+        "Intelligent Cloud Services (ICS) builds applications for the next generation of Integration Platform as a Service. The ICS team helps thousands of businesses integrate the power of big data into their industry.",
+        "Migrated several front end features from native JQuery (Internal Framework) to React.",
+        "This migration resulted in rendering time improving from 2,000 ms to 100 ms.",
+        "Migrated the Data Synchronization Services from a Java based (backend) rendering to a React UI based rendering.",
+        "Contributed several key features for Informatica's new React based framework"
+      ]
+    },
+    {
+      "title": "Undergraduate Researcher",
+      "company": "UC Riverside",
+      "link": "https://www.ucr.edu/",
+      "date": "(Fall 2017 - Spring 2018)",
+      "contents": [
+        "Worked under a grad student on planarization of non planar graphing algorithms and graphing optimization for microfluidics",
+        "Implementing bug fixes and contributing several graph routing algorithms based on 2D space efficiency."
+      ]
+    },
+    {
+      "title": "Product Manager / Lead Developer",
+      "company": "Elections Task Force - ASUCR",
+      "link": "https://github.com/lepatrick714/ASUCR_Elections_Public_Application",
+      "date": "(Winter 2018 - Spring 2018)"
+    },
+    {
+      "title": "Software Engineer Intern",
+      "company": "Zodiac Aerospace",
+      "link": "http://www.imsco-us.com//",
+      "date": "(Summer 2017)",
+      "contents": [
+        "Implemented a conversion tool for backwards compatibility between Zii’s IFE tablets and contributed content distribution APIs",
+        "The conversion tool to fully blend a +1 terabytes content set from 16 hrs to 1hr by using multi-threading and OS optimization.",
+        "Worked on the content distribution team and contributed several distribution functionality using Google Protobufs.",
+        "Tool is currently in production on Lufthansa, All Nippon Airways, and Fly Dubai with over +150 planes flying"
+      ]
+    },
+    {
+      "title": "BCOE CS100 - Technical Assistant",
+      "company": "UC Riverside",
+      "link": "https://www.engr.ucr.edu/",
+      "date": "(Fall 2016 - Winter 2018)"
+    },
+    {
+      "title": "Engineering Ambassador",
+      "company": "UCR Undergraduate Admissions",
+      "link": "http://admissions.ucr.edu/",
+      "date": "(Winter 2016 - Winter 2017)"
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Vice President",
+      "company": "ACM@UCR",
+      "link": "https://acmucr.org/",
+      "date": "(Spring 2017 - Spring 2018)"
+    },
+    {
+      "title": "Engineering Senator",
+      "company": "Assoicated Students of UC Riverside",
+      "link": "https://asucrexchange.ucr.edu/",
+      "date": "(Spring 2017 - Spring 2018)"
+    },
+    {
+      "title": "Director of Finance",
+      "company": "Citrus Hack",
+      "link": "http://citrushack.com/",
+      "date": "(Fall 2016 - Fall 2017)"
+    }
+  ]
+}
