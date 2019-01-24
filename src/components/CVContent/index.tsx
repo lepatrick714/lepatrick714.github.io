@@ -1,6 +1,5 @@
 import * as React from "react";
 import { List } from "semantic-ui-react";
-import JobLinks from "./iconLinks/index";
 import "./styles.css";
 
 export interface IJobsProps {
@@ -48,7 +47,6 @@ export class CVContent extends React.Component<ICVContentProps, {}> {
     return pos.map((job: IJobsProps, key: number) => {
       return (
         <List.Header key={key} className={"ListHeader"}>
-          <img src={JobLinks[job.company.replace(/\s/g, "")]} />
           {job.title}
           {" @ "}
           <a href={job.link}>{job.company}</a>
@@ -62,7 +60,6 @@ export class CVContent extends React.Component<ICVContentProps, {}> {
   private getCurrentJobHeader = (pos: IJobsProps) => {
     return (
       <List.Header className={"ListHeader"}>
-        <img src={JobLinks[pos.company.replace(/\s/g, "")]} />
         {pos.title}
         {" @ "}
         <a href={pos.link}>{pos.company}</a>
@@ -81,7 +78,6 @@ export class CVContent extends React.Component<ICVContentProps, {}> {
             {this.props.leadership.map((pos, key) => {
               return (
                 <List.Header key={key} className={"ListHeader"}>
-                  <img src={JobLinks[pos.company.replace(/\s/g, "")]} />
                   {pos.title}
                   {" @ "}
                   <a href={pos.link}>{pos.company}</a>
