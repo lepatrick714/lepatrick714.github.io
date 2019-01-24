@@ -1,5 +1,6 @@
 import * as React from "react";
 import { SocialMediaIcons } from "../SocialMediaIcons";
+import resume from "../../assets/Patrick-Resume.pdf";
 import "./styles.css";
 
 export interface INavProps {
@@ -22,7 +23,7 @@ export class Navbar extends React.Component<{}, INavbarState> {
         },
         {
           name: "Resume",
-          path: "/Resume/Patrick_Resume.pdf"
+          path: resume
         }
       ]
     };
