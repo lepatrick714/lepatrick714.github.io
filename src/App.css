@@ -9,7 +9,6 @@ h1 {
   font-size: 32pt;
   margin: 10px 0px 10px 0px;
 }
-
 h2,
 h3,
 h4 {
@@ -23,8 +22,8 @@ h4 {
 }
 
 a {
-  color: gold;
-  text-decoration:none;
+  color: orange;
+  text-decoration: none;
 }
 
 p {
@@ -61,18 +60,26 @@ div {
   padding-bottom: 10px;
 }
 
+img {
+  height: 70%;
+  width: 80%;
+  object-fit: cover;
+}
+
 @media only screen and (max-width: 600px) {
   .center {
-    width: 100%;
+    width: 85%;
   }
+
   h1 {
     font-size: 26pt;
   }
-  h2, 
-  h3, 
+  h2,
+  h3,
   h4 {
     font-size: 20pt;
   }
+
   li {
     font-size: 18px;
   }
