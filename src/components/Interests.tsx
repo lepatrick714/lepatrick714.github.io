@@ -19,11 +19,10 @@ export default class Interests extends React.Component {
         <p>
           I'm a proud believer of giving. One of my biggest goal in life was to
           be financially independent to conformably give back to humanity. There
-          is a ton of suffering in the world and being a Citizen of the United
-          States of America, I have the privilege to relieve some of the
-          suffering via monetary donations. Just a short ramballing for now, but
-          I'll link a detailed blog about this and where I donate to in the
-          future.
+          is a ton of suffering in the world and being a Citizen of Humanity, I
+          have the privilege to relieve some of the suffering via monetary
+          donations. Just a short ramballing for now, but I'll link a detailed
+          blog about this and where I donate to in the future.
         </p>
 
         <p>
@@ -33,13 +32,21 @@ export default class Interests extends React.Component {
         <ul>
           <li>
             Salary Negotiation with Haseeb Qureshi SED -{" "}
-            <a href="https://softwareengineeringdaily.com/2016/07/11/salary-negotiation-with-haseeb-qureshi/">
+            <a
+              href="https://softwareengineeringdaily.com/2016/07/11/salary-negotiation-with-haseeb-qureshi/"
+              target="_blank"
+            >
               Link
             </a>
           </li>
           <li>
-            Our 2019 Annual Letter - Bill & Melinda Gates -{" "}
-            <a href="https://www.gatesnotes.com/2019-Annual-Letter">Link</a>
+            Our 2019 Annual Letter - Bill {"&"} Melinda Gates -{" "}
+            <a
+              href="https://www.gatesnotes.com/2019-Annual-Letter"
+              target="_blank"
+            >
+              Link
+            </a>
           </li>
         </ul>
 

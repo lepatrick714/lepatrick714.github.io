@@ -21,20 +21,22 @@ export default class Jobs extends React.Component<IJobsProps, {}> {
   }
 
   private decodeDescription = (ele: string, index: number) => {
-    if(ele[0] === '-') {
+    if (ele[0] === "-") {
       ele = ele.substring(2);
       return (
         <ul key={index}>
-          <ul><li>{ele}</li></ul>
+          <ul>
+            <li>{ele}</li>
+          </ul>
         </ul>
-      )
+      );
     }
     return (
       <ul key={index}>
         <li>{ele}</li>
       </ul>
     );
-  }
+  };
 
   private getDescription = (Description: string[]) => {
     return Description.map((ele: string, index: number) => {
@@ -51,8 +53,11 @@ export default class Jobs extends React.Component<IJobsProps, {}> {
             (ele: IJobProps, index: number) => {
               return (
                 <li key={index}>
-                  {ele.Title} @ <a href={ele.Link}>{ele.CompanyName}</a> -{" "}
-                  {ele.Date}
+                  {ele.Title} @{" "}
+                  <a href={ele.Link} target="_blank">
+                    {ele.CompanyName}
+                  </a>{" "}
+                  - {ele.Date}
                   {this.props.cvMode
                     ? this.getDescription(ele.Description)
                     : null}

@@ -10,22 +10,22 @@ export default class Header extends React.Component {
           <p>Software Engineer, Swimmer, Musician</p>
           <ul className="centerUl">
             <li>
-              <a href="https://github.com/lepatrick714" className="a_icon">
+              <a href="https://github.com/lepatrick714" target="_blank" className="a_icon">
                 <i className="fab fa-github" />
               </a>
             </li>
             <li>
-              <a href="https://linkedin.com/in/lepatrick714" className="a_icon">
+              <a href="https://linkedin.com/in/lepatrick714" target="_blank" className="a_icon">
                 <i className="fab fa-linkedin" />
               </a>
             </li>
             <li>
-              <a href="mailto:lepatrick714@gmail.com" className="a_icon">
+              <a href="mailto:lepatrick714@gmail.com" target="_blank" className="a_icon">
                 <i className="far fa-envelope" />
               </a>
             </li>
             <li>
-              <a href={Resume} className="a_icon">
+              <a href={Resume} target="_blank" className="a_icon">
                 <i className="far fa-file-alt" />
               </a>
             </li>
