@@ -18,7 +18,7 @@ export default class Interests extends React.Component {
         <h3>Giving Back</h3>
         <p>
           I'm a proud believer of giving. One of my biggest goal in life was to
-          be financially independent to conformably give back to humanity. There
+          be financially independent to comfortably give back to humanity. There
           is a ton of suffering in the world and being a Citizen of Humanity, I
           have the privilege to relieve some of the suffering via monetary
           donations. Just a short ramballing for now, but I'll link a detailed
