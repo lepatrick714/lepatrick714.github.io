@@ -1,25 +1,12 @@
 // tslint:disable:object-literal-sort-keys
 export const allJobs = {
-  Future: [
+  Current: [
     {
       CompanyName: "Microsoft",
       Title: "Software Engineer",
       Link: "https://www.microsoft.com",
-      Date: "Expected July 2019",
+      Date: "July 2019 - Present",
       Description: ["Office Experience Team"]
-    }
-  ],
-  Current: [
-    {
-      CompanyName: "Creat'R Lab Steering Committee",
-      Title: "Committee Member",
-      Link:
-        "https://library.ucr.edu/research-services/creativity-and-discovery/creatr-lab",
-      Date: "Spring 2018 - Present",
-      Description: [
-        "The Creat’R Lab is a place where new technologies, scientific curiosity, and entrepreneurship come together across the disciplines.",
-        "Respresented the Engineering students of UC Riverside by adovcating for specific engineering machinery (Lazer Cutter, VR Capable Workstation, etc) and special events"
-      ]
     }
   ],
   Past: [
@@ -82,6 +69,17 @@ export const allJobs = {
     }
   ],
   Leadership: [
+    {
+      CompanyName: "Creat'R Lab Steering Committee",
+      Title: "Committee Member",
+      Link:
+        "https://library.ucr.edu/research-services/creativity-and-discovery/creatr-lab",
+      Date: "Spring 2018 - Spring 2019",
+      Description: [
+        "The Creat’R Lab is a place where new technologies, scientific curiosity, and entrepreneurship come together across the disciplines.",
+        "Respresented the Engineering students of UC Riverside by adovcating for specific engineering machinery (Lazer Cutter, VR Capable Workstation, etc) and special events"
+      ]
+    },
     {
       CompanyName: "ACM@UCR",
       Title: "Vice Chair",

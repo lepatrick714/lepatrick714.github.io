@@ -27,8 +27,6 @@ export default class WorkExperiences extends React.Component<
   };
 
   public render() {
-    // TODO: This is ugly :P
-
     return (
       <section>
         <div>
@@ -36,7 +34,6 @@ export default class WorkExperiences extends React.Component<
             Work Experience <button onClick={this.toggleCvMode}>CVMode?</button>
           </h1>
           <div id="line" />
-          <Jobs cvMode={this.state.cvMode} typeOfJob={"Future"} />
           <Jobs cvMode={this.state.cvMode} typeOfJob={"Current"} />
           <Jobs cvMode={this.state.cvMode} typeOfJob={"Past"} />
           <Jobs cvMode={this.state.cvMode} typeOfJob={"Leadership"} />

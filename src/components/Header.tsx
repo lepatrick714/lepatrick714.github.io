@@ -7,7 +7,7 @@ export default class Header extends React.Component {
       <section>
         <div id="title">
           <h1>Patrick Le</h1>
-          <h5>Updated on May 27th, 2019</h5>
+          <h5>Updated on June 23rd, 2019</h5>
           <p>Software Engineer, Swimmer, Musician</p>
           <ul className="centerUl">
             <li>

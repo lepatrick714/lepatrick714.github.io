@@ -16,8 +16,7 @@ export interface IJobProps {
 
 export default class Jobs extends React.Component<IJobsProps, {}> {
   public render() {
-    const job = this.getJobComponent();
-    return job;
+    return this.getJobComponent();
   }
 
   private decodeDescription = (ele: string, index: number) => {
