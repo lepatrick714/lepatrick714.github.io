@@ -7,12 +7,12 @@ export default class Header extends React.Component {
       <section>
         <div id="title">
           <h1>Patrick Le</h1>
-          <h5>Updated on June 23rd, 2019</h5>
+          <h5>Updated on June 14th, 2019</h5>
           <p>Software Engineer, Swimmer, Musician</p>
           <ul className="centerUl">
             <li>
               <a
-                href="https://github.com/lepatrick714"
+                href={"https://github.com/lepatrick714"}
                 target="_blank"
                 className="a_icon"
               >
@@ -21,7 +21,7 @@ export default class Header extends React.Component {
             </li>
             <li>
               <a
-                href="https://linkedin.com/in/lepatrick714"
+                href={"https://linkedin.com/in/lepatrick714"}
                 target="_blank"
                 className="a_icon"
               >
@@ -30,7 +30,7 @@ export default class Header extends React.Component {
             </li>
             <li>
               <a
-                href="mailto:lepatrick714@gmail.com"
+                href={"mailto:lepatrick714@gmail.com"}
                 target="_blank"
                 className="a_icon"
               >
@@ -40,6 +40,15 @@ export default class Header extends React.Component {
             <li>
               <a href={Resume} target="_blank" className="a_icon">
                 <i className="far fa-file-alt" />
+              </a>
+            </li>
+            <li>
+              <a
+                href={"https://www.flickr.com/photos/181872983@N05/"}
+                target="_blank"
+                className="a_icon"
+              >
+                <i className="fab fa-flickr" />
               </a>
             </li>
           </ul>
