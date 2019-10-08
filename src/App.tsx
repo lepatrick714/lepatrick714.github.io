@@ -1,21 +1,39 @@
 import * as React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
-import Education from './components/Education';
-import Header from "./components/Header";
-import Interests from "./components/Interests";
-import WorkExperiences from './components/WorkExperiences';
-import WorkshopMaterials from './components/WorkshopMaterials/WorkshopMaterials';
+import {Education, Giving, Header, Interests, WorkExperiences, WorkshopMaterials} from "./components";
 
 export default class App extends React.Component {
   public render() {
     return (
       <div className="center">
+        <Router>
+          <Switch>
+            <Route path="/">{this.getHome()}</Route>
+            <Route path="/giving">{this.getGift()}</Route>
+          </Switch>
+        </Router>
+      </div>
+    );
+  }
+
+  private getHome = () => {
+    return (
+      <div>
         <Header />
         <WorkExperiences />
-        <WorkshopMaterials/>
+        <WorkshopMaterials />
         <Education />
         <Interests />
       </div>
     );
+  };
+
+  private getGift = () => {
+    return ( 
+      <div>
+        <Giving />
+      </div> 
+    )
   }
 }

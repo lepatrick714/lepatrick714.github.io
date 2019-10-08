@@ -1,14 +1,11 @@
 import * as React from "react";
-import Jobs from "./Jobs/Jobs";
+import {Jobs} from "./";
 
 export interface IWorkExperienceState {
   cvMode: boolean;
 }
 
-export default class WorkExperiences extends React.Component<
-  {},
-  IWorkExperienceState
-> {
+export class WorkExperiences extends React.Component<{},IWorkExperienceState> {
   public constructor(props: any) {
     super(props);
     this.state = {

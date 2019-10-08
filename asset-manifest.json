@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.bf6268cc.chunk.css",
-  "main.js": "/static/js/main.0fc8e6a0.chunk.js",
-  "main.js.map": "/static/js/main.0fc8e6a0.chunk.js.map",
-  "static/js/1.29be82a2.chunk.js": "/static/js/1.29be82a2.chunk.js",
-  "static/js/1.29be82a2.chunk.js.map": "/static/js/1.29be82a2.chunk.js.map",
+  "main.css": "/static/css/main.92a146f0.chunk.css",
+  "main.js": "/static/js/main.42413901.chunk.js",
+  "main.js.map": "/static/js/main.42413901.chunk.js.map",
+  "static/js/1.3a60861a.chunk.js": "/static/js/1.3a60861a.chunk.js",
+  "static/js/1.3a60861a.chunk.js.map": "/static/js/1.3a60861a.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.bf6268cc.chunk.css.map": "/static/css/main.bf6268cc.chunk.css.map",
   "static/media/UCR_Riverside_Bourns.png": "/static/media/UCR_Riverside_Bourns.b46cb5fd.png",
   "static/media/Patrick_Resume.pdf": "/static/media/Patrick_Resume.c7ab98f8.pdf",
+  "static/css/main.92a146f0.chunk.css.map": "/static/css/main.92a146f0.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.fb73c894cce0b7b0197652403aee976d.js": "/precache-manifest.fb73c894cce0b7b0197652403aee976d.js",
+  "precache-manifest.f43b73e45f0e1b2ac5eb0900390fc08e.js": "/precache-manifest.f43b73e45f0e1b2ac5eb0900390fc08e.js",
   "service-worker.js": "/service-worker.js"
 }

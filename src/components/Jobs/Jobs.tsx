@@ -14,7 +14,7 @@ export interface IJobProps {
   Description: string[];
 }
 
-export default class Jobs extends React.Component<IJobsProps, {}> {
+export class Jobs extends React.Component<IJobsProps, {}> {
   public render() {
     return this.getJobComponent();
   }

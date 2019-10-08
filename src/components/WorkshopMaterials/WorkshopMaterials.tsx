@@ -8,7 +8,7 @@ export interface IWorkshops {
   Link: string;
 }
 
-export default class WorkshopMaterials extends React.Component {
+export class WorkshopMaterials extends React.Component {
   public constructor(props: any) {
     super(props);
     this.state = {

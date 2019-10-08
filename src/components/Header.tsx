@@ -1,7 +1,7 @@
 import * as React from "react";
 import Resume from "../assets/Patrick_Resume.pdf";
 
-export default class Header extends React.Component {
+export class Header extends React.Component {
   public render() {
     return (
       <section>

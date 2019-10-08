@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export default class Interests extends React.Component {
+export class Interests extends React.Component {
   public render() {
     return (
       <div>

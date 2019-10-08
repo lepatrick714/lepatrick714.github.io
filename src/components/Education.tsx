@@ -1,7 +1,7 @@
 import * as React from "react";
 import UCR from "../assets/UCR_Riverside_Bourns.png";
 
-export default class Education extends React.Component {
+export class Education extends React.Component {
   public render() {
     return (
       <div>
