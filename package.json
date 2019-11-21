@@ -12,7 +12,7 @@
   "scripts": {
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build && mv build/* . && rm -rf build/",
-    "clean": "rm -rf static asset-manifest.json index.html service-worker.js",
+    "clean": "rm -rf static asset-manifest.json index.html service-worker.js precache-manifest.* workbox-*",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject"
   },
