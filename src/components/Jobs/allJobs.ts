@@ -59,6 +59,19 @@ export const allJobs = {
       ]
     },
     {
+      CompanyName: "Zodiac Inflight Innovations (Now Safran Passenger Innovations)",
+      Title: "Software Engineering Intern",
+      Link:
+        "https://zii.aero/",
+      Date: "Summer 2017",
+      Description: [
+        "Implemented a conversion tool for backwards compatibility between tablets and content distribution APIs systems",
+        "The conversion tool can fully blend a 1+ terabytes content set from 16 hrs to 1hr by using multi-threading and OS optimization",
+        "Tool is currently in production on Lufthansa, All Nippon Airways, and Fly Dubai with over 200+ planes flying",
+        "Decreased total grading time from 4+ days to 20 minutes and graded 1000+ students"
+      ]
+    },
+    {
       CompanyName: "UCR Undergraduate Admissions",
       Title: "Engineering Ambassador",
       Link: "https://admissions.ucr.edu/",
